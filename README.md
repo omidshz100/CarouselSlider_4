@@ -26,9 +26,7 @@ This SwiftUI project, named `CarouselSlider_4`, implements a horizontal carousel
 ## Git Repository
 For version control and collaboration, the project is hosted on Git. You can access the repository using the following link:
 
-[https://github.com/omidshz100/screenshots.git]
-(https://github.com/omidshz100/screenshots.git)
-
+![App Preview](https://github.com/omidshz100/screenshots.git)
 ## Preview
 To see the preview of the carousel slider, check the `ContentView` preview section at the end of the `Home.swift` file.
 
