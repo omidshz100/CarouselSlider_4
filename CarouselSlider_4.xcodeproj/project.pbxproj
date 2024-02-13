@@ -11,6 +11,9 @@
 		D903B9C02B7BA67E007DEC61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D903B9BF2B7BA67E007DEC61 /* ContentView.swift */; };
 		D903B9C22B7BA67F007DEC61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D903B9C12B7BA67F007DEC61 /* Assets.xcassets */; };
 		D903B9C52B7BA67F007DEC61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D903B9C42B7BA67F007DEC61 /* Preview Assets.xcassets */; };
+		D903B9CE2B7BAC83007DEC61 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D903B9CD2B7BAC83007DEC61 /* Card.swift */; };
+		D903B9D02B7BB69D007DEC61 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D903B9CF2B7BB69D007DEC61 /* Home.swift */; };
+		D903B9D22B7BC713007DEC61 /* OffsetReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D903B9D12B7BC713007DEC61 /* OffsetReader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		D903B9BF2B7BA67E007DEC61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D903B9C12B7BA67F007DEC61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D903B9C42B7BA67F007DEC61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D903B9CD2B7BAC83007DEC61 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		D903B9CF2B7BB69D007DEC61 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		D903B9D12B7BC713007DEC61 /* OffsetReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetReader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,8 @@
 		D903B9BC2B7BA67E007DEC61 /* CarouselSlider_4 */ = {
 			isa = PBXGroup;
 			children = (
+				D903B9CC2B7BAC77007DEC61 /* Model */,
+				D903B9CB2B7BAC71007DEC61 /* View */,
 				D903B9BD2B7BA67E007DEC61 /* CarouselSlider_4App.swift */,
 				D903B9BF2B7BA67E007DEC61 /* ContentView.swift */,
 				D903B9C12B7BA67F007DEC61 /* Assets.xcassets */,
@@ -65,6 +73,23 @@
 				D903B9C42B7BA67F007DEC61 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D903B9CB2B7BAC71007DEC61 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D903B9CF2B7BB69D007DEC61 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D903B9CC2B7BAC77007DEC61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D903B9CD2B7BAC83007DEC61 /* Card.swift */,
+				D903B9D12B7BC713007DEC61 /* OffsetReader.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D903B9C02B7BA67E007DEC61 /* ContentView.swift in Sources */,
+				D903B9D22B7BC713007DEC61 /* OffsetReader.swift in Sources */,
+				D903B9CE2B7BAC83007DEC61 /* Card.swift in Sources */,
+				D903B9D02B7BB69D007DEC61 /* Home.swift in Sources */,
 				D903B9BE2B7BA67E007DEC61 /* CarouselSlider_4App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
