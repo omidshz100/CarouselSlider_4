@@ -1,5 +1,5 @@
 # CarouselSlider_4
-
+## The only problem I have is understanding Math logic behind the part for calculating Width of each cell ❓
 ## Description
 This SwiftUI project, named `CarouselSlider_4`, implements a horizontal carousel slider with dynamic card items. Each card contains an image, and the slider allows adjusting the width of the cards using a slider.
 
@@ -31,4 +31,4 @@ For version control and collaboration, the project is hosted on Git. You can acc
 ## Preview
 To see the preview of the carousel slider, check the `ContentView` preview section at the end of the `Home.swift` file.
 
-Feel free to explore, modify, and enhance the code according to your requirements. Happy coding!
+Thanks ##kavsoft https://www.patreon.com/kavsoft/posts for the best of tutorial videos
